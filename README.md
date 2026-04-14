@@ -143,6 +143,3 @@ Class 12: **93.8%** · Class 10: **98.2%**
 [LinkedIn](https://www.linkedin.com/in/satyamkumarsingh-ai/) · [GitHub](https://github.com/Satyam087) · [vscimatic999@gmail.com](mailto:vscimatic999@gmail.com)
 
 *Scaling intelligence, one agent at a time.*
-
-<img src="https://raw.githubusercontent.com/Satyam087/Satyam087/output/snake.svg" alt="Snake animation" />
-<img src="https://raw.githubusercontent.com/Satyam087/Satyam087/output/snake.svg?sanitize=true&raw=true" alt="Snake animation" />
