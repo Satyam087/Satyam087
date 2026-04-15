@@ -115,7 +115,7 @@ Class 12: **93.8%** · Class 10: **98.2%**
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Satyam087&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+  <img src="https://streak-stats.demolab.com?user=Satyam087&locale=en&mode=daily&theme=light&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
 </div>
 
 ---
