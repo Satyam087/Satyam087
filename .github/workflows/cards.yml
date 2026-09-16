@@ -1,0 +1,22 @@
+# Generates the profile cards into this repository, so the README never depends on a third-party host being up.
+name: cards
+on:
+  schedule:
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: Satyam087
+          BRANCH_NAME: main
+          UTC_OFFSET: 5.5
