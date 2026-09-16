@@ -6,9 +6,7 @@
 <p align="center">
   <a href="https://satyamkumarsingh.com"><img alt="Portfolio" src="https://img.shields.io/badge/satyamkumarsingh.com-portfolio-b04a27?style=flat-square&labelColor=232427"></a>
   <a href="https://satyamkumarsingh.com/lab"><img alt="Evaluation lab" src="https://img.shields.io/badge/RAG%20evals-56%20%2F%2056%20passed-b04a27?style=flat-square&labelColor=232427"></a>
-  <a href="https://satyamkumarsingh.com/contact#ledger"><img alt="Notify delivery" src="https://img.shields.io/badge/Notify-98.1%25%20of%201%2C346%20jobs%20delivered-b04a27?style=flat-square&labelColor=232427"></a>
-  <a href="https://www.linkedin.com/in/satyamkumarsingh-ai/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-satyamkumarsingh--ai-232427?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:vscimatic999@gmail.com"><img alt="Email" src="https://img.shields.io/badge/email-vscimatic999%40gmail.com-232427?style=flat-square"></a>
+  <a href="https://satyamkumarsingh.com/contact#ledger"><img alt="Notify delivery" src="https://img.shields.io/badge/Notify-98.2%25%20of%201%2C352%20jobs%20delivered-b04a27?style=flat-square&labelColor=232427"></a>
 </p>
 
 I build agents and RAG systems, ship the full stack around them (Java, Node, React, React Native), and evaluate LLM workflows for a living. Second-year B.Tech CSE (AI) at Vedam School of Technology, Pune. Every number on this page links to the query, run file or commit that produced it.
@@ -30,6 +28,17 @@ I build agents and RAG systems, ship the full stack around them (Java, Node, Rea
 <td align="center" width="33%"><a href="https://satyamkumarsingh.com/lab"><b><font size="6">56 / 56</font></b></a><br><sub>on a published RAG benchmark, 7 adversarial, recall@8 100%, MRR 0.97<br>Ask this site · the search box on my portfolio</sub></td>
 </tr>
 </table>
+
+<!-- LIVE:START -->
+| Notify, live from production | |
+|---|---|
+| Delivery success | **98.2%** of 1,352 jobs (1,327 sent, 25 failed, 0 pending) |
+| Events ingested | 715 since 18 May 2026, across 2 tenants |
+| Attempts | 1,384 (32 retries) · median ingest to delivered 10.1 s |
+| Health at check | up, 129 ms · checked 16 Sept 2026, 09:27 UTC |
+
+<sub>Read by a GitHub Action from [satyamkumarsingh.com/api/ledger](https://satyamkumarsingh.com/api/ledger), which reads Notify's `GET /api/v1/metrics`. The same numbers drive the [public ledger](https://satyamkumarsingh.com/contact#ledger).</sub>
+<!-- LIVE:END -->
 
 ## How Notify works
 
@@ -95,6 +104,14 @@ Elsewhere: [OilTrace](https://github.com/TrueMan08/Team_AlgoRise_OilSpill_detect
 
 <sub>This list updates itself from the site's RSS feed once a day (GitHub Action).</sub>
 
+## How I work
+
+- **Evals before claims.** A number I would not publish is a number I should not quote. The search box on my site ships with its benchmark; the notification service ships with a public delivery rate.
+- **Audits and plans before code.** Twenty-plus written audits on Humraah before the store submission; a "context brain" for a four-person repo with AI agents in it.
+- **Gates, not apologies.** Margo Rubber's build fails on an unverified fact; 13 broken links and 4 silent 404s never reached a customer.
+- **Failures go next to the wins.** The 25 failed jobs, the two training runs that collapsed, the one-line webhook bug: all on the record, with what changed because of them.
+- **AI-native, with judgement.** Claude Code and Codex daily; the decisions, the tests and the numbers are mine.
+
 ## Stack
 
 <p>
@@ -119,11 +136,6 @@ Plus the AI layer the icons don't have: LangGraph, LangChain, RAG with calibrate
 <p>
 <img src="profile-summary-card-output/default/0-profile-details.svg" alt="Profile details" width="100%">
 </p>
-<p>
-<img src="profile-summary-card-output/default/1-repos-per-language.svg" alt="Repositories per language" width="49%">
-<img src="profile-summary-card-output/default/3-stats.svg" alt="Stats" width="49%">
-</p>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Satyam087/Satyam087/output/github-contribution-grid-snake-dark.svg">
   <img alt="Contribution graph" src="https://raw.githubusercontent.com/Satyam087/Satyam087/output/github-contribution-grid-snake.svg" width="100%">
@@ -134,6 +146,7 @@ Plus the AI layer the icons don't have: LangGraph, LangChain, RAG with calibrate
 ---
 
 <p align="center">
-<sub>Currently watching <i>Bleach: Thousand-Year Blood War</i>, reading <i>Blue Lock</i>. LeetCode 1515 · CodeChef 2★ 1425 · Pune, IST (UTC+5:30), US and EU overlap.</sub><br>
-<sub>Open to remote AI engineering, full-stack and SDE roles: internship, contract or full-time. <a href="https://satyamkumarsingh.com/contact">Say hello</a>, delivery traced live by Notify.</sub>
+<sub>Open to remote AI engineering, full-stack and SDE roles: internship, contract or full-time. Pune, IST (UTC+5:30), US and EU overlap.</sub><br>
+<sub><a href="https://satyamkumarsingh.com/contact"><b>Say hello</b></a> (delivered by Notify, traced live) · <a href="https://www.linkedin.com/in/satyamkumarsingh-ai/">LinkedIn</a> · vscimatic999@gmail.com</sub><br>
+<sub>Currently watching <i>Bleach: Thousand-Year Blood War</i>, reading <i>Blue Lock</i>. LeetCode 1515 · CodeChef 2★ 1425.</sub>
 </p>
