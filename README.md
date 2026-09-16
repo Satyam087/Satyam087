@@ -13,32 +13,22 @@ I build agents and RAG systems, ship the full stack around them (Java, Node, Rea
 
 ## Now
 
-| | | |
-|---|---|---|
-| **Full Stack Developer Intern** | Third Shade Media, Jun 2026 → | Sole engineer on Humraah: one Node backend, a PWA and an Expo app, taken from a failed 40-finding security audit to App Store and Play review in ten weeks. |
-| **LLM Evaluation Expert (Certified)** | Deccan AI Experts, Jun 2026 → | Evaluating terminal-based and agentic LLM workflows for correctness and reproducibility. |
-| **Co-founder, Payments and Infrastructure** | CampusCritique, Apr 2026 → | Payments, notifications, admissions automation. 1.1K users, 15 of 15 paid sessions completed. |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/now-dark.png">
+  <img alt="Full Stack Developer Intern at Third Shade Media; LLM Evaluation Expert at Deccan AI Experts; Co-founder at CampusCritique." src="assets/now-light.png" width="100%">
+</picture>
 
 ## Measured
 
-<table>
-<tr>
-<td align="center" width="33%"><a href="https://satyamkumarsingh.com/work/notify"><b><font size="6">98.1%</font></b></a><br><sub>of 1,346 notification jobs delivered<br>Notify · Java, RabbitMQ · production since May 2026</sub></td>
-<td align="center" width="33%"><a href="https://satyamkumarsingh.com/work/oiltrace"><b><font size="6">0.35 vs 0.06</font></b></a><br><sub>Dice against the classical baseline, look-alike traps inside validation<br>OilTrace · PyTorch U-Net · SIH 2026 internal winner</sub></td>
-<td align="center" width="33%"><a href="https://satyamkumarsingh.com/lab"><b><font size="6">56 / 56</font></b></a><br><sub>on a published RAG benchmark, 7 adversarial, recall@8 100%, MRR 0.97<br>Ask this site · the search box on my portfolio</sub></td>
-</tr>
-</table>
+<a href="https://satyamkumarsingh.com/#measured"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/measured-dark.png">
+  <img alt="98.1% delivery success of 1,346 jobs (Notify). Dice 0.35 vs 0.06 baseline (OilTrace). 56 of 56 on a published RAG benchmark (Ask this site)." src="assets/measured-light.png" width="100%">
+</picture></a>
 
-<!-- LIVE:START -->
-| Notify, live from production | |
-|---|---|
-| Delivery success | **98.2%** of 1,352 jobs (1,327 sent, 25 failed, 0 pending) |
-| Events ingested | 715 since 18 May 2026, across 2 tenants |
-| Attempts | 1,384 (32 retries) · median ingest to delivered 10.1 s |
-| Health at check | up, 129 ms · checked 16 Sept 2026, 09:27 UTC |
-
-<sub>Read by a GitHub Action from [satyamkumarsingh.com/api/ledger](https://satyamkumarsingh.com/api/ledger), which reads Notify's `GET /api/v1/metrics`. The same numbers drive the [public ledger](https://satyamkumarsingh.com/contact#ledger).</sub>
-<!-- LIVE:END -->
+<a href="https://satyamkumarsingh.com/contact#ledger"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/live-dark.svg">
+  <img alt="Notify, live from production: delivery success, events, retries, median latency, health at check time. Refreshed daily by a GitHub Action from satyamkumarsingh.com/api/ledger." src="assets/live-light.svg" width="100%">
+</picture></a>
 
 ## How Notify works
 
@@ -85,12 +75,13 @@ Source: [Satyam087/notify](https://github.com/Satyam087/notify) · write-up: [Wh
 
 ## Repositories worth opening
 
-| Repository | What it is | Stack |
-|---|---|---|
-| [**notify**](https://github.com/Satyam087/notify) | Multi-tenant notification service: commit-then-publish with a recovery sweep, idempotent fan-out, classified retries, tenant-scoped API keys, a metrics endpoint feeding a live public ledger. In production since May 2026. | Java 21, Spring Boot 3.5, RabbitMQ, PostgreSQL, Flyway, Docker |
-| [**AltaHack**](https://github.com/Satyam087/AltaHack) | KisanMind: five-node LangGraph advisor for farmers with Hindi and Marathi voice, built in 24 hours, 152 tests. Top 2 of about 40 teams at HackWarts. | Python, LangGraph, FastAPI, Gemini, Sarvam, Next.js |
-| [**BookCompanion**](https://github.com/Satyam087/BookCompanion) | PageNotes: a reading-path planner over the Open Library API. No UI library, no router library; edge cases designed rather than ignored. | React 19, Vite |
-| [**webRTC**](https://github.com/Satyam087/webRTC) | The LiveKit video layer for an AI interview platform: room-scoped tokens minted server-side, Express API, Next.js client. | LiveKit, Next.js, Express, MongoDB |
+<table><tr>
+<td width="50%"><a href="https://github.com/Satyam087/notify"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/repo-1-dark.png"><img alt="notify" src="assets/repo-1-light.png" width="100%"></picture></a></td>
+<td width="50%"><a href="https://github.com/Satyam087/AltaHack"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/repo-2-dark.png"><img alt="AltaHack, KisanMind" src="assets/repo-2-light.png" width="100%"></picture></a></td>
+</tr><tr>
+<td width="50%"><a href="https://github.com/Satyam087/BookCompanion"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/repo-3-dark.png"><img alt="BookCompanion, PageNotes" src="assets/repo-3-light.png" width="100%"></picture></a></td>
+<td width="50%"><a href="https://github.com/Satyam087/webRTC"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/repo-4-dark.png"><img alt="webRTC" src="assets/repo-4-light.png" width="100%"></picture></a></td>
+</tr></table>
 
 Elsewhere: [OilTrace](https://github.com/TrueMan08/Team_AlgoRise_OilSpill_detection) (the detector, service and dashboard, every training run's history committed) · [AskMyNotes](https://github.com/VKS0104/AskMyNotes-AlgoRise) (first place, Noesis Hackathon; I co-built the retrieval). The portfolio itself is a private repo; [how it works](https://satyamkumarsingh.com/site) is public.
 
