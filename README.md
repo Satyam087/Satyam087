@@ -37,15 +37,16 @@ The system behind the 98.1%. A product posts an event and gets a 202; everything
 
 ```mermaid
 flowchart LR
-  A["POST /api/v1/events<br/>X-Notify-Api-Key, idempotency key"] --> B["notification_events<br/>RECEIVED → QUEUED, commit"]
+  A["POST /api/v1/events<br/>API key, idempotency key"] --> B["notification_events<br/>RECEIVED to QUEUED, commit"]
   B -- afterCommit --> C["RabbitMQ<br/>notify.events"]
-  B -. "QUEUED > 120 s" .-> S["Recovery sweep<br/>every 60 s"] -.-> C
-  C --> D["Consumer<br/>tenant rules → one job per channel<br/>template rendered, idempotent"]
-  D --> E["Delivery worker<br/>every 5 s, batch 50, claim FOR UPDATE"]
+  B -. "QUEUED for over 120 s" .-> S["Recovery sweep<br/>every 60 s"]
+  S -.-> C
+  C --> D["Consumer<br/>tenant rules, one job per channel<br/>template rendered, idempotent"]
+  D --> E["Delivery worker<br/>every 5 s, batch 50, row lock"]
   E --> F["In-app"]
-  E --> G["Email (Resend)"]
-  E --> H["Push (Firebase, VAPID)"]
-  E -- "retryable? +60 s, max 3" --> E
+  E --> G["Email, Resend"]
+  E --> H["Push, Firebase and VAPID"]
+  E -- "retryable: again in 60 s, max 3" --> E
   E -- "non-retryable" --> X["/jobs/failed"]
 ```
 
