@@ -87,11 +87,7 @@ Elsewhere: [OilTrace](https://github.com/TrueMan08/Team_AlgoRise_OilSpill_detect
 
 ## Writing
 
-<!-- BLOG-POST-LIST:START -->
-- [What 1,346 notification jobs taught me about async delivery](https://satyamkumarsingh.com/writing/1346-notification-jobs)
-- [I built a RAG system for my own portfolio, then published its evaluation](https://satyamkumarsingh.com/writing/rag-for-my-own-portfolio)
-- [The webhook that routed every payment to the refund handler](https://satyamkumarsingh.com/writing/webhook-refund-handler)
-<!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [What 1,346 notification jobs taught me about async delivery](https://satyamkumarsingh.com/writing/1346-notification-jobs)- [I built a RAG system for my own portfolio, then published its evaluation](https://satyamkumarsingh.com/writing/rag-for-my-own-portfolio)- [The webhook that routed every payment to the refund handler](https://satyamkumarsingh.com/writing/webhook-refund-handler)- [v0.9: Notify gets its second tenant: this site](https://satyamkumarsingh.com/contact#ledger)- [v0.8: Humraah reaches App Store and Play review](https://satyamkumarsingh.com/work/humraah)<!-- BLOG-POST-LIST:END -->
 
 <sub>This list updates itself from the site's RSS feed once a day (GitHub Action).</sub>
 
