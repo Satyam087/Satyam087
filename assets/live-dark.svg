@@ -1,19 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210">
   <rect x="0.5" y="0.5" width="1199" height="209" rx="10" fill="#161b22" stroke="#30363d"/>
-  <text x="24" y="38" style="font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;letter-spacing:1.5px;text-transform:uppercase" fill="#a6a8ad"><tspan fill="#e8865e">LIVE</tspan>  /  NOTIFY, PRODUCTION  ·  CHECKED 23 SEPT 2026, 07:54 UTC</text>
+  <text x="24" y="38" style="font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;letter-spacing:1.5px;text-transform:uppercase" fill="#a6a8ad"><tspan fill="#e8865e">LIVE</tspan>  /  NOTIFY, PRODUCTION  ·  CHECKED 24 SEPT 2026, 07:44 UTC</text>
   <text x="24" y="104" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:58px;font-weight:700;letter-spacing:-2px" fill="#e8865e">98.2%</text>
   <text x="24" y="134" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:16px;font-weight:600" fill="#f2f2f0">Delivery success</text>
-  <text x="24" y="156" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:13px" fill="#a6a8ad">of 1,360 jobs since 18 May 2026 · 1,335 sent · 25 failed · 0 pending</text>
+  <text x="24" y="156" style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:13px" fill="#a6a8ad">of 1,362 jobs since 18 May 2026 · 1,337 sent · 25 failed · 0 pending</text>
   <rect x="24" y="172" width="520" height="6" rx="3" fill="#30363d"/>
   <rect x="24" y="172" width="510" height="6" rx="3" fill="#e8865e"/>
   <g style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" fill="#f2f2f0">
-    <text x="640" y="72" style="font-size:26px;font-weight:700;letter-spacing:-.5px">719</text>
+    <text x="640" y="72" style="font-size:26px;font-weight:700;letter-spacing:-.5px">720</text>
     <text x="640" y="92" style="font-size:12px" fill="#a6a8ad">events ingested · 3 tenants</text>
     <text x="840" y="72" style="font-size:26px;font-weight:700;letter-spacing:-.5px">32</text>
-    <text x="840" y="92" style="font-size:12px" fill="#a6a8ad">retries across 1,392 attempts</text>
+    <text x="840" y="92" style="font-size:12px" fill="#a6a8ad">retries across 1,394 attempts</text>
     <text x="1040" y="72" style="font-size:26px;font-weight:700;letter-spacing:-.5px">10.1 s</text>
     <text x="1040" y="92" style="font-size:12px" fill="#a6a8ad">median ingest to delivered</text>
-    <text x="640" y="140" style="font-size:26px;font-weight:700;letter-spacing:-.5px">up, 135 ms</text>
+    <text x="640" y="140" style="font-size:26px;font-weight:700;letter-spacing:-.5px">up, 150 ms</text>
     <text x="640" y="160" style="font-size:12px" fill="#a6a8ad">service health at check time · 28 push subscriptions</text>
   </g>
   <text x="24" y="194" style="font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:10.5px;letter-spacing:1px" fill="#a6a8ad">SOURCE: SATYAMKUMARSINGH.COM/API/LEDGER  →  NOTIFY GET /API/V1/METRICS  ·  REFRESHED DAILY BY A GITHUB ACTION</text>

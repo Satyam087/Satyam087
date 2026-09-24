@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://satyamkumarsingh.com"><img alt="Portfolio" src="https://img.shields.io/badge/satyamkumarsingh.com-portfolio-b04a27?style=flat-square&labelColor=232427"></a>
   <a href="https://satyamkumarsingh.com/lab"><img alt="Evaluation lab" src="https://img.shields.io/badge/RAG%20evals-56%20%2F%2056%20passed-b04a27?style=flat-square&labelColor=232427"></a>
-  <a href="https://satyamkumarsingh.com/contact#ledger"><img alt="Notify delivery" src="https://img.shields.io/badge/Notify-98.2%25%20of%201%2C360%20jobs%20delivered-b04a27?style=flat-square&labelColor=232427"></a>
+  <a href="https://satyamkumarsingh.com/contact#ledger"><img alt="Notify delivery" src="https://img.shields.io/badge/Notify-98.2%25%20of%201%2C362%20jobs%20delivered-b04a27?style=flat-square&labelColor=232427"></a>
 </p>
 
 I build agents and RAG systems, ship the full stack around them (Java, Node, React, React Native), and evaluate LLM workflows for a living. Second-year B.Tech CSE (AI) at Vedam School of Technology, Pune. Every number on this page links to the query, run file or commit that produced it.
